@@ -12,7 +12,7 @@ import { initFlowbite } from 'flowbite';
 
 export class AppComponent implements OnInit {
   title = 'web-app';
-
+  // extends  ارثبری
   ngOnInit(): void {
     initFlowbite();
   }
