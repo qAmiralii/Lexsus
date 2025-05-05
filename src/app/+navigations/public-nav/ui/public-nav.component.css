@@ -1,4 +1,8 @@
-.head{
-    /* border: solid black 1px;
-    border-radius: 0.5em; */
+.head {
+    margin: 0.8em;
+}
+.icon{
+    position: absolute;
+    right: 12vw;
+    top: 4.5vh;
 }
