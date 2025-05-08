@@ -9,12 +9,12 @@ import { initFlowbite } from 'flowbite';
   templateUrl: './public-nav.component.html',
   styleUrl: './public-nav.component.css'
 })
-export class PublicNavComponent implements OnInit {
-  constructor(private flowbiteService: FlowbiteService) { }
+export class PublicNavComponent  {
+  // constructor(private flowbiteService: FlowbiteService) { }
 
-  ngOnInit(): void {
-    this.flowbiteService.loadFlowbite((flowbite) => {
-      initFlowbite();
-    });
-  }
+  // ngOnInit(): void {
+  //   this.flowbiteService.loadFlowbite((flowbite) => {
+  //     initFlowbite();
+  //   });
+  // }
 }

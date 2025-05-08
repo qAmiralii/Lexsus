@@ -8,13 +8,13 @@ import { initFlowbite } from 'flowbite';
   templateUrl: './private-nav.component.html',
   styleUrl: './private-nav.component.css'
 })
-export class PrivateNavComponent implements OnInit {
+export class PrivateNavComponent  {
 
-  constructor(private flowbiteService: FlowbiteService) {}
+  // constructor(private flowbiteService: FlowbiteService) {}
 
-  ngOnInit(): void {
-    this.flowbiteService.loadFlowbite((flowbite) => {
-      initFlowbite();
-    });
-  }
+  // ngOnInit(): void {
+  //   this.flowbiteService.loadFlowbite((flowbite) => {
+  //     initFlowbite();
+  //   });
+  // }
 }
