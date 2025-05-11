@@ -1,13 +1,31 @@
-.firstCard{
+.firstCard {
     /* background-color: aqua; */
     width: 100%;
 }
-.button{
-    width: 100%;
-    justify-content: center;
-}
-.imgButton{
+
+
+
+.imgButton {
     position: relative;
     bottom: 11vh;
     border-radius: 0;
+}
+
+.topText-h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    -ms-transform: translate(-50%, -50%);
+}
+.topText-h2-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 350%);
+    -ms-transform: translate(-50%, -50%);
+}
+.hr{
+    
+    margin-top: 0.3em;
 }
