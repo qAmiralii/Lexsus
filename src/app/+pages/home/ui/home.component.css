@@ -2,3 +2,12 @@
     /* background-color: aqua; */
     width: 100%;
 }
+.button{
+    width: 100%;
+    justify-content: center;
+}
+.imgButton{
+    position: relative;
+    bottom: 11vh;
+    border-radius: 0;
+}
