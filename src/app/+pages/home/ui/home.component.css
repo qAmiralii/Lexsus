@@ -3,7 +3,9 @@
     width: 100%;
 }
 
-
+.h5{
+    font-size: small;
+}
 
 .imgButton {
     position: relative;
