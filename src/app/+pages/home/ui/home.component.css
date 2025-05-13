@@ -2,9 +2,15 @@
     /* background-color: aqua; */
     width: 100%;
 }
-
-.h5{
+.Ltext{
     font-size: small;
+}
+svg{
+    fill: gray;
+    transition: 1s;
+}
+svg:hover{
+    fill: black;
 }
 
 .imgButton {
